@@ -38,7 +38,7 @@ export function createDiv() {
   const div = document.createElement('div');
   const minSize = 20;
   const maxSize = 200;
-  const maxColor = 0xffffff;
+  const maxColor = '0xffffff';
 
   div.className = 'draggable-div';
   div.style.background = '#' + random(0, maxColor).toString(16);
